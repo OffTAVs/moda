@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -28,12 +29,21 @@
     </header>
 <main>
 
+  <div class="slideshow">
+    <img id="slide-img" src="img/image 3.png" alt="">
+    <p id="slide-text"></p>
+    
+    <button onclick="anteriorSlide()">&#8592;</button>
+    <button onclick="proximoSlide()">&#8594;</button>
+    <script src="slideshow.js"></script>
+  </div>
+
 </main>
 <footer class="footer">
     <div class="footer-icons">
       <i class="fab fa-twitter"></i>
       <i class="fas fa-tablet-alt"></i>
-      <img src="logo.png" alt="Fios de Moda" class="footer-logo">
+      <img src="img/8e128ac8-a22d-4f48-bbe3-f69683b533fb 1.png" alt="Fios de Moda" class="footer-logo">
       <i class="fab fa-youtube"></i>
       <i class="fas fa-tablet-alt"></i>
     </div>
@@ -41,6 +51,9 @@
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in
     </p>
   </footer>
+
   
+  <script src="slideshow.js"></script>
+
 </body>
 </html>
