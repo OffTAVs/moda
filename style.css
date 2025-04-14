@@ -1,11 +1,11 @@
 *{
-    font-family: Arial,sans-serif;
+  font-family: 'Libre Caslon Display', serif;
     margin: 0;
     padding: 0;
 }
 
 nav{
-background-color: #c9a1a1;
+background-color: #F0ECE5;
 color:white;
 width:100% ;
 height: 80px ;
@@ -29,16 +29,20 @@ text-align: center;
 }
 
 nav li:hover{
-background-color: #575757;
+background-color: #d3adad;
 }
 
 nav a{
     text-decoration: none;
-    color:white;
+    color:black;
 }
 main{
     margin-top: 55px;
     padding: 20px;
+}
+
+body {
+  font-family: 'Libre Caslon Display', serif;
 }
 
 .quemsomos-esquerda{
@@ -120,7 +124,10 @@ main{
     color: #000;
   }
 
-
+  .container {
+    display: flex;
+    gap: 20px; /* Espaço entre os cards */
+  }
   .card {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -141,6 +148,7 @@ main{
   
   .card-body {
     padding: 15px;
+    margin-top: 20px;
   }
   
   .card-title {
@@ -153,9 +161,14 @@ main{
     font-size: 1rem;
     color: #555;
   }
+  .card-text-rs {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
   
   .btn-primary {
-    background-color: #007bff;
+    background-color: #afb97f;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -165,7 +178,7 @@ main{
   }
   
   .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #DFE5C5;
   }
 
 
@@ -177,6 +190,7 @@ main{
     margin-bottom: 20px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
   }
   
   .user-img {
@@ -204,7 +218,7 @@ main{
   }
   
   .btn-view-more {
-    background-color: #007bff;
+    background-color: #afb97f;
     color: white;
     text-decoration: none;
     padding: 8px 15px;
@@ -213,5 +227,22 @@ main{
   }
   
   .btn-view-more:hover {
-    background-color: #0056b3;
+    background-color: #DFE5C5;
+  }
+
+  .slideshow {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .slideshow button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
   }
