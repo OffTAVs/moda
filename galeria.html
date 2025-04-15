@@ -12,30 +12,45 @@
 <body>
     <header>
         
-        <nav>
-            <input type="text" id="search" placeholder="Pesquisar..." class="search-bar">
-            <ul>
-                <li> <a href="">Produtos</a> 
-                </li>
-        
-                <li> <a href="">Blog</a>
-                </li>
-        
-                <li> <a href="">Galeria</a>
-                </li>
-        
-        </ul>
-            </nav>
+      <nav>
+        <a href="home.html">
+          <img class="logo-header" src="img/8e128ac8-a22d-4f48-bbe3-f69683b533fb 1.png" alt="Logo" class="logo-header" />
+        </a>
+          
+          <ul>
+              <li> <a href="produtos.html">Produtos</a> 
+              </li>
+      
+              <li> <a href="blog.html">Blog</a>
+              </li>
+      
+              <li> <a href="galeria.html">Galeria</a>
+              </li>
+      
+      </ul>
+      <input type="text" id="search" placeholder="Pesquisar..." class="search-bar">
+          </nav>
     </header>
 <main>
-
-  <div class="slideshow">
-    <img id="slide-img" src="img/image 3.png" alt="">
-    <p id="slide-text"></p>
+  <div class="centro-titulo">
+  <h2>Galeria</h2>
+</div>
+  <section class="galeria">
     
-    <button onclick="anteriorSlide()">&#8592;</button>
-    <button onclick="proximoSlide()">&#8594;</button>
-    <script src="slideshow.js"></script>
+    <div class="galeria-imagens">
+      <img src="img/ArtesanatoDaBahia-49-630x550 1.png" alt="Imagem 1" />
+      <img src="img/image 3.png" alt="Imagem 2" />
+      <img src="img/Screenshot_20210818-190747_Instagram 1.png" alt="Imagem 3" />
+    </div>
+  </section>
+
+  <div class="description">
+    <p><strong>Lorem Ipsum:</strong><br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+  </div>
+
+  <div class="btn-container">
+    <a href="#" class="btn-view-more">VER MAIS</a>
   </div>
 
 </main>
@@ -48,12 +63,12 @@
       <i class="fas fa-tablet-alt"></i>
     </div>
     <p class="footer-text">
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in
     </p>
   </footer>
 
   
-  <script src="slideshow.js"></script>
+  
 
 </body>
 </html>

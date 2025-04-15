@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro - Fios de Moda</title>
+  <style>
+    body {
+      background-color: #fdfaf5;
+      font-family: Georgia, serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .logo {
+      margin-top: 30px;
+    }
+
+    .logo img {
+      height: 70px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 30px 0 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+
+    label {
+      margin: 10px 0 5px;
+    }
+
+    input {
+      padding: 10px;
+      border: none;
+      background-color: #e7e8ea;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #f1eff1;
+      width: 100%;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    footer img {
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="logo.png" alt="Logo Fios de Moda">
+  </div>
+
+  <h1>Cadastre-se</h1>
+
+  <form>
+    <label for="email">E-mail</label>
+    <input type="email" id="email" required>
+
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" required>
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" required>
+
+    <label for="cep">CEP</label>
+    <input type="text" id="cep" required>
+  </form>
+
+  <footer>
+    <img src="logo.png" alt="Logo Rodapé">
+    <a href="index.html">FIOS DE MODA</a>
+  </footer>
+
+</body>
+</html>
