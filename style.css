@@ -6,6 +6,7 @@
 }
 
 body, html {
+   font-family: 'Libre Caslon Display', serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -13,6 +14,30 @@ body, html {
   background-color: #F0ECE5;
 }
 
+.icon{
+  height: 20px;
+  width: 20px;
+
+}
+
+.preto-e-branco{
+  filter: grayscale(100%);
+}
+.lista {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.alto-contraste{
+  background-color: black;
+  color: white;
+}
+
+.alto-contraste a{
+  color: yellow;
+}
 
 .container {
   max-width: 1200px;
@@ -84,10 +109,7 @@ main{
     padding: 20px;
 }
 
-body {
-  font-family: 'Libre Caslon Display', serif;
-  
-}
+
 
 .quemsomos-esquerda{
   font-size: 30px;

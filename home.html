@@ -11,6 +11,9 @@
     <title>Home</title>
 </head>
 <body>
+
+ 
+
     <header>
         
         <nav>
@@ -30,10 +33,22 @@
         
         </ul>
         <input type="text" id="search" placeholder="Pesquisar..." class="search-bar">
+
+
+        <ul>
+        <button id="preto-e-branco"><img src="img/preto_e_branco.png" class="icon"></button>
+        <button id="aumentar-texto"><img src="img/a_mais.png" class="icon"></button>
+        <button id="diminuir-texto"><img src="img/a_menos.png" class="icon"></button>
+        <button id="alto-contraste"><img src="img/alto_contraste.png" class="icon"></button>
+        <button  id="vlibras"><img src="img/libras.png" class="icon"></button>
+        <button id="#"><img src="img/voz.png" class="icon"></button>
+      </ul>
             </nav>
+            
+           
     </header>
 <main>
-
+ 
     <div class="quemsomos-esquerda">
         <h1>Quem somos</h1>
     <div class="subtitulo-texto">
@@ -107,6 +122,20 @@
     </p>
   </footer>
   
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  
+
+<script src="script.js"></script>
 </body>
 
 </html>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
