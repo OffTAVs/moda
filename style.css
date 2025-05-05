@@ -1,18 +1,39 @@
-*{
-  
-  font-family: 'Libre Caslon Display', serif;
-    margin: 0;
-    padding: 0;
-}
+
 
 body, html {
+   font-family: 'Libre Caslon Display', serif;
+   
   margin: 0;
-  padding: 0;
+  padding: 10px;
   width: 100%;
   min-height: 100vh;
   background-color: #F0ECE5;
 }
 
+
+.icon{
+  height: 20px;
+  width: 20px;
+
+}
+
+.preto-e-branco{
+  filter: grayscale(100%);
+}
+.lista {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.alto-contraste{
+  background-color: black;
+  color: white;
+}
+
+.alto-contraste a{
+  color: yellow;
+}
 
 .container {
   max-width: 1200px;
@@ -70,7 +91,7 @@ background-color: #d3adad;
 nav a{
     text-decoration: none;
     color:black;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .logo-header {
@@ -80,24 +101,21 @@ nav a{
 }
 
 main{
-    margin-top: 55px;
+    margin-top: 50px;
     padding: 20px;
 }
 
-body {
-  font-family: 'Libre Caslon Display', serif;
-  
-}
+
 
 .quemsomos-esquerda{
-  font-size: 30px;
+  font-size: 2em;
   margin-top: 20px; 
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px; 
 }
 .subtitulo-texto{
-  font-size: 25PX;
+  font-size: 0.9em;
   margin-top: 20px;
  margin-left: 30PX;
  margin-right: 30PX;
@@ -112,7 +130,7 @@ body {
     margin-right: 20px;
 }
 .centro-titulo{
-  font-size: 30PX;
+  font-size: 2em;
     text-align: center;
   margin-top: 40px;
 }
@@ -171,7 +189,7 @@ body {
   }
   
   .footer-text {
-    font-size: 14px;
+    font-size: 0.9em;
     max-width: 900px;
     margin: 0 auto;
     color: #000;
@@ -205,7 +223,7 @@ body {
   }
   
   .card-title {
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: bold;
     margin-bottom: 10px;
   }
@@ -215,7 +233,7 @@ body {
     color: #555;
   }
   .card-text-rs {
-    font-size: 1rem;
+    font-size: 1em;
     color: #555;
     margin-top: 10px;
   }
@@ -259,13 +277,13 @@ body {
   }
   
   .username {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
   .blog-text {
-    font-size: 1rem;
+    font-size: 1em;
     color: #555;
     margin-bottom: 10px;
   }
@@ -295,7 +313,7 @@ body {
   }
   
   .galeria h2 {
-    font-size: 24px;
+    font-size: 1em;
     margin-bottom: 20px;
   }
   
@@ -314,7 +332,7 @@ body {
   } 
 
   .description {
-    font-size: 17px;
+    font-size: 1.2em;
     line-height: 1.6;
     max-width: 700px;
     margin: 0 auto 40px;
